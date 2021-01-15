@@ -1,0 +1,269 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/* Styling for Navigation Bar */
+
+.nav-link{
+	color: black;
+	font-weight: 600;
+}
+.navbar-brand{
+	color: black;
+	font-weight: 800;
+	font-size: 30px;
+}
+
+
+/* Styling for Slider */
+
+.carousel-item{
+	max-height: 645px;
+}
+
+
+.carousel-caption{
+	position: absolute;
+	top: 80%;
+	transform: translateY(-100%);
+	left: -50%;
+}
+
+
+#special {
+  background: rgb(25, 25, 25);
+}
+
+#special .heading h1 {
+  color: #000;
+  padding-top: 7rem;
+  margin-bottom: 2rem;
+  color: #fff;
+  font-family: 'Yeon Sung', cursive;
+  font-size: 100px;
+}
+
+#special .heading p {
+	color: #ccc;
+	font-family: 'Monofett', cursive;
+	font-size: 40px;
+}
+
+#special .card{
+	display: flex;
+  	flex-wrap: wrap;
+  	align-content: center;
+}
+
+#special .card p{
+	font-family: 'Srisakdi', cursive;
+	font-size: 18px;
+	text-align: justify;
+	font-weight: 600;
+
+}
+
+
+
+
+
+
+/* Styling for ABOUT-US */
+#about .heading h1 {
+ 	font-size: 60px;
+ 	color: rgb(0,0,0);
+  	padding-top: 60px;
+ 	margin-bottom: 2px;
+ 	font-family: 'Architects Daughter', cursive;
+ 	font-weight: 800;
+}
+
+#about .content {
+  margin: 5rem auto;
+}
+#about p {
+  font-size: 25px;
+  font-family: 'Architects Daughter', cursive;
+  
+}
+
+/* Styling for Gallery */
+.gallery h1{
+	font-size: 60px;
+ 	color: rgb(0,0,0);
+  	padding-top: 60px;
+ 	margin-bottom: 2px;
+ 	font-family: 'Architects Daughter', cursive;
+ 	font-weight: 800;
+ 	letter-spacing: 2px;
+}
+
+.gallery .row{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.gallery .row .column{
+	flex: 33.3%;
+	width: auto;
+	overflow: hidden;
+	padding: 0 4px;
+	height: 100%;
+}
+
+.gallery .row .column img{
+	width: 100%;
+	height: 100%;
+	margin-top: 2%;
+	cursor: pointer;
+	filter: grayscale(0.4) brightness(0.5);
+	border-radius: 5px;
+	transition: 0.3s linear;
+}
+
+.gallery .row .column img:hover{
+	filter: grayscale(0) brightness(1);
+}
+
+@media only screen and (max-width: 800px){
+	.gallery .row .column{
+		flex: 50%;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	.gallery .row .column{
+		flex: 100%;
+	}
+}
+
+
+/*Styling for TESTIMONIAL*/
+.testimonial{
+	margin: 50px auto;
+}
+.testimonial h1{
+	text-align: center;
+	font-weight: 700;
+	color: rgb(0,0,0);
+	text-transform: uppercase;
+}
+
+.testimonial h1::after{
+	content:'';
+	background-color: #ff9800; 
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 1px;
+}
+
+.testimonial .row{
+	margin-top: 30px;
+}
+
+.testimonial .col-md-4{
+	margin: 40px auto;
+}
+
+.testimonial .profile{
+	padding: 70px 10px 10px;
+	background-color: #efefef;
+}
+
+.testimonial .profile img{
+	top: -60px;
+	position: absolute;
+	left: calc(50% - 60px);
+
+}
+.testimonial .user{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+}
+
+.testimonial h3{
+	font-size: 20px;
+	margin-top: 15px;
+	color: #ff9800;
+}
+
+.testimonial blockquote{
+	font-size: 16px;
+	line-height: 30px;
+}
+
+.testimonial blockquote::before{
+	content: "\201C";
+	font-size: 50px;
+	position: relative;
+	color: #ff9800;
+	line-height: 20px;
+	bottom: -15px;
+	right: 5px;
+	margin-right: 5px;  
+}
+
+.testimonial blockquote::after{
+	content: "\201C";
+	font-size: 50px;
+	position: relative;
+	color: #ff9800;
+	line-height: 20px;
+	bottom: -15px;
+	margin-left: 5px; 
+}
+
+
+/* Styling for FOOTER */
+.fab{
+	color: rgb(249, 168, 38);
+}
+.fb:hover{
+	color: rgb(58,87,148);
+}
+
+.twitter:hover{
+	color: rgb(0,167,230);
+}
+
+.insta:hover{
+	color:rgb(212, 19, 179);
+}
+.whatsapp:hover{
+	color: rgb(0, 189, 97);
+}
+
+footer input{
+	height: 50px;
+	width: 100%;
+	outline: none;
+	border: none;
+	background: white;
+	padding: 10px;
+	-webkit-box-shadow: 0px 2px 28px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 28px -8px rgba(0,0,0,0.75);
+box-shadow: 0px 2px 28px -8px rgba(0,0,0,0.75);
+}
+
+.footer-notify{
+	height: 50px;
+	width: 190px;
+	background: rgb(249, 168, 38);
+	color: white;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	display: inline-block;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+
+.footer-notify:hover{
+	letter-spacing: 2px;
+	transition: .8s;
+}

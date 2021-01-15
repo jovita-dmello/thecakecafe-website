@@ -1,0 +1,131 @@
+/* Styling for Navigation Bar */
+
+.nav-link{
+	color: black;
+	font-weight: 600;
+}
+.navbar-brand{
+	color: black;
+	font-weight: 800;
+	font-size: 30px;
+}
+
+
+/* Styling for FORM LEFT */
+.Check_out{
+	border-radius: 20px;
+}
+.product_info{
+  background: rgb(249, 168, 38);
+  /*border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;*/
+  height: 100%;
+}
+
+.product_info img{
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+  margin-top: 40%;
+}
+
+.product_info .content{
+  text-align: center;
+  margin-top: 25px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.content h3{
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 18px;
+  letter-spacing: 4px;
+  color: black;
+}
+
+.content p{
+  margin-top: 10px;
+  font-size:14px;
+  font-weight: 400;
+  color: black;
+}
+
+.form-control:focus{
+	border-color: rgb(249, 168, 38);
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 3px 3px 8px rgba(249, 168, 38, 0.7);
+	outline: none;
+}
+
+.btn-pay{
+	
+	width: 200px;
+	height: 48px;
+	background: rgb(249, 168, 38);
+	color: white;
+	outline: none;
+	border: none;
+	border-radius: 10px;
+	font-size: 24px;
+	font-weight: 500;
+	text-align: center;
+	letter-spacing: 3px;
+	float: right;
+}
+
+.btn-pay:hover{
+	font-size: 24px;
+	letter-spacing: 4px;
+	transition: .5s;
+}
+
+
+/* Styling for FOOTER */
+.fab{
+	color: rgb(249, 168, 38);
+}
+.fb:hover{
+	color: rgb(58,87,148);
+}
+
+.twitter:hover{
+	color: rgb(0,167,230);
+}
+
+.insta:hover{
+	color:rgb(212, 19, 179);
+
+}
+.whatsapp:hover{
+	color: rgb(0, 189, 97);
+}
+
+footer input{
+	height: 50px;
+	width: 100%;
+	outline: none;
+	border: none;
+	background: white;
+	padding: 10px;
+	-webkit-box-shadow: 0px 2px 28px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 28px -8px rgba(0,0,0,0.75);
+box-shadow: 0px 2px 28px -8px rgba(0,0,0,0.75);
+}
+
+.footer-notify{
+	height: 50px;
+	width: 190px;
+	background: rgb(249, 168, 38);
+	color: white;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	display: inline-block;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+
+.footer-notify:hover{
+	letter-spacing: 2px;
+	transition: .8s;
+}

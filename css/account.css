@@ -1,0 +1,102 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/* Styling for Navigation Bar */
+
+.nav-link{
+	color: black;
+	font-weight: 600;
+}
+.navbar-brand{
+	color: black;
+	font-weight: 800;
+	font-size: 30px;
+}
+
+/*Styling the input Box*/
+.form-control:focus{
+	border-color: rgb(249, 168, 38);
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 3px 3px 8px rgba(249, 168, 38, 0.7);
+	outline: none;
+}
+.profile .form-group{
+	font-weight: 600;
+}
+
+.profile .change{
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+
+.profile .btn-warning{
+	color: white;
+	background: rgb(249, 168, 38);
+	font-weight: 500;
+	text-align: center;
+	letter-spacing: 1px;
+	float: right;
+}
+.profile .btn-warning:hover{
+	letter-spacing: 1.5px;
+	transition: .5s;
+}
+
+
+/* Styling for FOOTER */
+.page-footer{
+	bottom: 0;
+}
+.fab{
+	color: rgb(249, 168, 38);
+}
+.fb:hover{
+	color: rgb(58,87,148);
+}
+
+.twitter:hover{
+	color: rgb(0,167,230);
+}
+
+.insta:hover{
+	color:rgb(212, 19, 179);
+
+}
+.whatsapp:hover{
+	color: rgb(0, 189, 97);
+}
+
+footer input{
+	height: 50px;
+	width: 100%;
+	outline: none;
+	border: none;
+	background: white;
+	padding: 10px;
+	-webkit-box-shadow: 0px 2px 28px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 28px -8px rgba(0,0,0,0.75);
+box-shadow: 0px 2px 28px -8px rgba(0,0,0,0.75);
+}
+
+.footer-notify{
+	height: 50px;
+	width: 190px;
+	background: rgb(249, 168, 38);
+	color: white;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	display: inline-block;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+
+.footer-notify:hover{
+	letter-spacing: 2px;
+	transition: .8s;
+}

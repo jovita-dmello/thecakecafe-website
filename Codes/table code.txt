@@ -1,0 +1,88 @@
+CREATE TABLE `customer` (
+  `userid` varchar(20) NOT NULL,
+  `pass` varchar(20) DEFAULT NULL,
+  `name` varchar(20) CHARACTER SET latin1 DEFAULT NULL,
+  `phone` double(11,0) DEFAULT NULL,
+) 
+
+
+
+CREATE TABLE `products` (
+  `prid` int(11) NOT NULL,
+  `pname` varchar(50) DEFAULT NULL,
+  `price` int(11) DEFAULT NULL
+) 
+
+CREATE TABLE cart (
+  cid int(11) NOT NULL,
+  prid int(11) DEFAULT NULL,
+  qty int(11) DEFAULT NULL,
+  total int(11) NOT NULL,
+  userid varchar(20) DEFAULT NULL
+)
+
+
+CREATE TABLE `orders` (
+  `orderid` int(11) NOT NULL AUTO_INCREMENT,
+  `userid` varchar(30) NOT NULL,
+  `prid` int(11) NOT NULL,
+  `qty` int(11) NOT NULL,
+  `total` int(11) DEFAULT NULL,
+  `name` varchar(30) NOT NULL,
+  `address` varchar(150) NOT NULL,
+  `detail` varchar(100) DEFAULT NULL,
+   PRIMARY KEY (orderid)
+)
+
+
+
+CREATE TABLE `payment` (
+  `payid` int(11) NOT NULL AUTO_INCREMENT,
+  `total` int(11) DEFAULT NULL,
+  `userid` varchar(30) DEFAULT NULL,
+  `cid` int(11) DEFAULT 1,
+   PRIMARY KEY (payid)
+)
+
+
+//Classic Cakes
+INSERT INTO products (prid, pname, price) VALUES
+(1, 'Vanilla', 500),
+(2, 'Black Forest', 600),
+(3, 'White Forest', 600),
+(4, 'Chocolate', 700),
+(5, 'Blueberry', 700),
+(6, 'Choco Blackberry', 700),
+(7, 'Raspberry', 700),
+(8, 'Strawberry', 700),
+(9, 'Kiwi', 700),
+(10, 'Mango', 700),
+(11, 'Pista', 700),
+(12, 'Pashion Fruit', 700);
+
+//Exotic Cakes
+INSERT INTO products (prid, pname, price) VALUES
+(13, 'Butter Scotch', 800),
+(14, 'Tender Coconut', 850),
+(15, 'Golden Glitter', 850),
+(16, 'White Truffle', 900),
+(17, 'Red Velvet', 950),
+(18, 'Rafalo', 950),
+(19, 'Oreo', 950),
+(20, 'Chocolate Truffle', 950);
+
+//Premium Cakes
+INSERT INTO products (prid, pname, price) VALUES
+(21, 'Dulce de Leche', 1000),
+(22, 'Honey', 1000),
+(23, 'Cotton Candy', 1200),
+(24, 'Fresh Fruit', 1000),
+(25, 'Choconut Fantasy', 1200),
+(26, 'Death by Chocolate', 1200),
+(27, 'Ferrero Rocher', 1200),
+(28, 'Kit-Kat', 1200),
+(29, 'Chocolate Mousse', 1200),
+(30, 'Nutella', 1700),
+(31, 'Chocolate Tres Leches', 1400),
+(32, 'Rainbow', 1700);
+
