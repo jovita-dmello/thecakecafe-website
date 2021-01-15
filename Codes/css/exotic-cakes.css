@@ -1,0 +1,149 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/* Styling for Navigation Bar */
+
+.nav-link{
+	color: black;
+	font-weight: 600;
+}
+.navbar-brand{
+	color: black;
+	font-weight: 800;
+	font-size: 30px;
+}
+
+
+/* Styling for Parallex */
+
+.parallex{
+	background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../Image/Exotic/exotic.jpg')no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	width: 100%;
+	padding: 259px 0px;
+}
+
+.parallex p{
+	font-size: 100px;
+	letter-spacing: 8px;
+	font-family:cursive; 
+	margin-top: -25%;
+	position: absolute;
+}
+.p-classic{
+	letter-spacing: 20px;
+}
+
+
+/* Styling for Products */
+
+.collections #price{
+	color: yellowgreen;
+	font-size: 18px;
+	font-weight: 700;
+	padding-left: 5px;
+}
+
+.card{
+	border: none;
+	margin-top: 40px;
+}
+
+.collections .btn-add-cart{
+	position: absolute;
+	top: 40%; 
+	left: 25%;
+	width: 140px;
+	height: 40px;
+	background: rgba(249, 168, 38,0);
+	color: rgba(255,255,255,0);
+	font-weight: 600;
+	text-align: center;
+	border-radius: 5px;
+	border: none;
+	outline: none; 
+	
+} 
+.collections .card:hover .btn-add-cart{
+	background: rgba(249, 168, 38,0.8);
+	color: rgba(255,255,255,1);
+	letter-spacing: 1.5px;
+	transition: .8s;
+}
+
+.collections .card .btn-add-cart:hover{
+	background: rgba(102, 189, 70,0.8);
+	letter-spacing: 2px;
+	transition: .8s;
+}
+.qty{
+	width: 50px;
+	height: 20px;
+	text-align: center;
+	border:1.5px solid black;
+	border-radius: 4px;
+	color: black;
+	margin-left: 25%;
+}
+
+#unit{
+	font-weight: 500;
+}
+
+/* Styling for FOOTER */
+.fab{
+	color: rgb(249, 168, 38);
+}
+.fb:hover{
+	color: rgb(58,87,148);
+}
+
+.twitter:hover{
+	color: rgb(0,167,230);
+}
+
+.insta:hover{
+	color:rgb(212, 19, 179);
+
+}
+.whatsapp:hover{
+	color: rgb(0, 189, 97);
+}
+
+footer input{
+	height: 50px;
+	width: 100%;
+	outline: none;
+	border: none;
+	background: white;
+	padding: 10px;
+	-webkit-box-shadow: 0px 2px 28px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 28px -8px rgba(0,0,0,0.75);
+box-shadow: 0px 2px 28px -8px rgba(0,0,0,0.75);
+}
+
+.footer-notify{
+	height: 50px;
+	width: 190px;
+	background: rgb(249, 168, 38);
+	color: white;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	display: inline-block;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+
+.footer-notify:hover{
+	letter-spacing: 2px;
+	transition: .8s;
+}
+
+
+
+

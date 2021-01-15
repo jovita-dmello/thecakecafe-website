@@ -1,0 +1,135 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/* Styling for Navigation Bar */
+
+.nav-link{
+	color: black;
+	font-weight: 600;
+}
+.navbar-brand{
+	color: black;
+	font-weight: 800;
+	font-size: 30px;
+}
+
+
+/* Styling for Slider */
+
+.carousel-item{
+	max-height: 500px;
+}
+
+
+.carousel-caption{
+	position: absolute;
+	top: 80%;
+	transform: translateY(-100%);
+	left: -50%;
+}
+
+.btn-shop{
+	width: 200px;
+	height: 60px;
+	outline: none;
+	border: none;
+	font-size: 20px;
+	letter-spacing: 2px;
+	border-radius: 5px;
+}
+.btn-shop:hover{
+	letter-spacing: 3px;
+	transition: .7s;
+}
+
+
+/* Styling for CART SECTION*/
+
+.orders h1{
+
+	letter-spacing: 3px;
+	font-weight: 750;
+	font-size: 30px;
+}
+
+.orders h2{
+	font-weight: 650;
+	letter-spacing: 2px;
+
+}
+.orders .row_header{
+	font-weight: 400;
+	color: darkgrey;
+	font-size: 17px;
+}
+.orders h3{
+	color: yellowgreen;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.orders .billing-name{
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.orders .details{
+	font-size: 15px;
+	font-weight: 500;
+
+}
+
+
+
+/* Styling for FOOTER */
+.fab{
+	color: rgb(249, 168, 38);
+}
+.fb:hover{
+	color: rgb(58,87,148);
+}
+
+.twitter:hover{
+	color: rgb(0,167,230);
+}
+
+.insta:hover{
+	color:rgb(212, 19, 179);
+
+}
+.whatsapp:hover{
+	color: rgb(0, 189, 97);
+}
+
+footer input{
+	height: 50px;
+	width: 100%;
+	outline: none;
+	border: none;
+	background: white;
+	padding: 10px;
+	-webkit-box-shadow: 0px 2px 28px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 28px -8px rgba(0,0,0,0.75);
+box-shadow: 0px 2px 28px -8px rgba(0,0,0,0.75);
+}
+
+.footer-notify{
+	height: 50px;
+	width: 190px;
+	background: rgb(249, 168, 38);
+	color: white;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	display: inline-block;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+
+.footer-notify:hover{
+	letter-spacing: 2px;
+	transition: .8s;
+}

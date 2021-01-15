@@ -1,0 +1,117 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/* Styling for Navigation Bar */
+.nav-link{
+	color: black;
+	font-weight: 600;
+}
+.navbar-brand{
+	color: black;
+	font-weight: 800;
+	font-size: 30px;
+}
+
+
+/* Styling for CART SECTION*/
+
+.cart h1{
+
+	letter-spacing: 3px;
+	font-weight: 750;
+}
+
+.cart h2{
+	font-weight: 650;
+	letter-spacing: 2px;
+}
+.cart .row_header{
+	font-weight: 400;
+	color: darkgrey;
+	font-size: 17px;
+}
+.cart h3{
+	color: yellowgreen;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+
+.proceed-checkout{
+	
+	width: 380px;
+	height: 55px;
+	background: rgb(249, 168, 38);
+	color: white;
+	outline: none;
+	border: none;
+	border-radius: 10px;
+	font-size: 24px;
+	font-weight: 500;
+	text-align: center;
+	letter-spacing: 3px;
+	float: right;
+	padding-top: .75%;
+}
+
+.proceed-checkout:hover{
+	font-size: 24px;
+	letter-spacing: 4px;
+	transition: .5s;
+	color: white;
+	text-decoration: none;
+}
+
+
+/*Styling for FOOTER*/ 
+.fab{
+	color: rgb(249, 168, 38);
+}
+.fb:hover{
+	color: rgb(58,87,148);
+}
+
+.twitter:hover{
+	color: rgb(0,167,230);
+}
+
+.insta:hover{
+	color:rgb(212, 19, 179);
+
+}
+.whatsapp:hover{
+	color: rgb(0, 189, 97);
+}
+
+footer input{
+	height: 50px;
+	width: 100%;
+	outline: none;
+	border: none;
+	background: white;
+	padding: 10px;
+	-webkit-box-shadow: 0px 2px 28px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 28px -8px rgba(0,0,0,0.75);
+box-shadow: 0px 2px 28px -8px rgba(0,0,0,0.75);
+}
+
+.footer-notify{
+	height: 50px;
+	width: 190px;
+	background: rgb(249, 168, 38);
+	color: white;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	display: inline-block;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+
+.footer-notify:hover{
+	letter-spacing: 2px;
+	transition: .8s;
+}
